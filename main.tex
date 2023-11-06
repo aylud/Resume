@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Duy La
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.3in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.6in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Large \scshape Duy La} \\ \vspace{1pt}
+    19915 Creek Bend Trail, Houston, Texas 77084 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 832-983-1588 ~ \href{mailto:duyvietla@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{duyvietla@gmail.com}} ~ 
+    \href{https://linkedin.com/in/duy-la/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/duy-la}}  ~
+    \href{https://github.com/aylud}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/aylud}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Houston}{August 2021 -- December 2024}
+      {Bachelor of Business Administration in Management Information Systems}{Houston, TX}
+      \resumeItemListStart
+        \resumeItem{Cumulative GPA: 3.72}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Copeland}{August 2023 -- December 2023}
+      {IT/AV Co-op Position }{Sidney, OH}
+      \resumeItemListStart
+        \resumeItem{Manage IT/AV operations, including meeting room preparation for 30+ conference rooms on site, video production/editing for 50+ corporate events, and systems troubleshooting regarding AV/EV equipment.}
+        \resumeItem{Assist with management and technical operations of 70+ international call centers through call flow diagramming, contributing to efficient customer service and team communication globally while saving the company over \$70,000 per call flow utilizing SaaS built off of AWS.}
+        \resumeItem{Collaborate in process optimization efforts, including the development of IT/AV reporting infrastructure in ServiceNow ESM, dashboards, and SharePoint web pages facilitating smooth transition to independent private company.}
+      \resumeItemListEnd
+
+     \resumeSubheading
+       {The Alley}{June 2022 -- August 2023}
+       {Front of House}{Katy, TX}
+      \resumeItemListStart
+        \resumeItem{Facilitated 1000+ premium customer interactions daily through strategic oversight and orchestration of team operations.}
+        \resumeItem{Drove inventory turnover of 50+ products, to optimize merchandise and produce and support cross-functional teams of up to 10 members.}
+        \resumeItem{Innovatively tested and launched 10+ new menu items, enhancing product portfolio for annual events.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Ding Tea}{February 2021 - May 2022}
+      {Shift Lead}{Katy, TX}
+      \resumeItemListStart
+        \resumeItem{Increased operational efficiency leveraging Microsoft Office Suite for data-driven decision-making in employee and shift management.}
+        \resumeItem{Ensured top-notch quality for produce shipments through close collaboration with franchise stakeholders.}
+        \resumeItem{Boosted brand presence via data-driven social media strategies, achieving 100\% growth in followership.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Academic Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{NOV Supply Chain Cost Strategies} $|$ Excel, PowerPoint}{April 2023}
+          \resumeItemListStart
+            \resumeItem{Collaborated to analyze and present supply chain strategies for sourcing quality steel in key market areas to executive employees at National Oilwell Varco.}
+            \resumeItem{Developed sophisticated Excel cost tool, employing advanced functions and macros, to model and optimize supply chain costs and efficiency.}
+            \resumeItem{Employed Kanban-style visual management and timeboxing approach to streamline project workflow, ensuring seamless team coordination and adherence to timelines. }
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Plant Shop Simulator} $|$ \emph{Java}}{April 2023}
+          \resumeItemListStart
+            \resumeItem{Developed Java-based simulator for basic plant shop, with interactive user interface. }
+            \resumeItem{Implemented effective use of Java packages to create a functional application, enhancing understanding of object-oriented programming principles. }
+            \resumeItem{Engineered system to handle selection of plant types, assigning values, and calculating store profits based on varying order sizes.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Software and Systems}{: Java, Python, Microsoft Excel, Microsoft PowerPoint, Microsoft SharePoint, Genesys Cloud, ServiceNow, Linux, LaTeX, MatLab } \\
+     \textbf{Technical}{: Soldering, Cybersecurity Basics, Network Management, High-Performance and Cluster Computing Fundamentals, SLURM Batch Scheduling} \\
+     \textbf{Methodologies}{: Systems Development Life Cycle (SDLC), Agile, Waterfall, Critical Path Method, Kanban, Data Analysis, and Business Process Modeling } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Friends of Medecins Sans Frontieres}{August 2022 - Present}{Vice-President}{University of Houston}
+           \vspace{5pt}
+            \resumeItemListStart
+                \resumeItem{Orchestrated speaker events and directed club logistics using project management tools}
+                \resumeItem{Raised awareness and financial support for the organization through data-driven marketing and fundraising initiatives. }
+                \resumeItem{Led organization of 30+ members to promote community service, academics, and unity.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
